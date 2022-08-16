@@ -1,4 +1,4 @@
-# Running Trino and Hive Metastore Locally
+# How to Run Trino and Hive Metastore Locally
 
 While debugging an issue in a Trino-Iceberg connector I was working on, I decided it was finally time to set up Trino to run locally on my laptop. I've actually run it before using the [TpchQueryRunner](https://github.com/trinodb/trino/blob/master/testing/trino-tests/src/test/java/io/trino/tests/tpch/TpchQueryRunner.java) class, but this uses the TPCH connector, and I needed the Iceberg connector, which requires Hive to be running.
 
