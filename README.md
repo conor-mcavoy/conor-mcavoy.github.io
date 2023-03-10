@@ -5,6 +5,7 @@ I plan for this site to eventually be a sort of blog, but we'll see what happens
 My name is Conor McAvoy. I like math, programming, books, and my cat Lily. I currently work for Salesforce as a software engineer, and I live in San Francisco.
 
 ## Posts
+* 2023-03-09 [On Hockey Sticks](posts/on-hockey-sticks.md)
 * 2023-01-02 [Solving "Letter Boxed"](posts/letter-boxed.md)
 * 2022-08-16 [How to Run Trino and Hive Metastore Locally](posts/running-trino-and-hive-metastore-locally.md)
 
