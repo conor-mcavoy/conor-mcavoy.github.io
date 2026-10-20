@@ -30,18 +30,18 @@ So on the surface, a static Gear Ball appears to be like a 3x3 but with weird ed
 But what does it do in motion?
 
 ## Turning
-Here is what a Gear Ball looks like after spinning the right face (the red face in this orientation) "once".
+Here is what a Gear Ball looks like after spinning the right face (the red face in this orientation) "once" (really "twice", see below).
 
 ![Gear Ball after an R turn](../assets/images/gear-ball/state-after-R-square.jpg)
 
 Turning a face of a Gear Ball is a fun exercise, as it causes the gears to whirl into motion.
 At first this seems quite complex, nearly half the ball has changed.
 But eventually we can track down what is happening carefully.
-For the purpose of explanation, let's consider this single R turn shown above (consult [standard 3x3 notation](https://en.wikipedia.org/wiki/Rubik%27s_Cube#Singmaster_notation)).
+For the purpose of explanation, let's consider this single R (again, really this was a double-move, keep reading) turn shown above (consult [standard 3x3 notation](https://en.wikipedia.org/wiki/Rubik%27s_Cube#Singmaster_notation)).
 If you attempt to turn the right face 90 degrees CW, while holding the left face firm, you will find that the middle slice M starts to turn in the same CW direction, but at half-speed, as its gears mesh between the R and L faces.
 This leaves the M slice 45 degrees offset, and thus the ball is in an "invalid" state.
 I say invalid because you can't turn any other faces (other than continuing to turn R, or, equivalently, L).
-You must continue the R turn further, completing 180 degrees (R2) to make the smallest possible valid turn.
+You must continue the R turn further, completing 180 degrees (R2) to make the smallest possible valid turn. That is what the photo above shows, an "R2" move.
 
 Since R2 is the "minimal" turn, from here on out, the notation R will be used to mean this 180 degree turn while holding the L face still (and similarly, moving U means rotating U 180 degrees holding D fixed, etc.).
 That is, our new R is more similar to an R2 turn on a 3x3 cube, but there is no point in us calling it R**2** the whole time since every turn would be a "2".
